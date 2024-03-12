@@ -11,7 +11,7 @@ public class Client {
 
         int portNum = 11113;
 
-        Socket socket = new Socket("localhost", portNum);
+        Socket socket = new Socket("54.159.148.178", portNum);
 
         // Integer Object to send to Server.
         Integer num = 50;
